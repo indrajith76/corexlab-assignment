@@ -1,0 +1,16 @@
+.marketplace-bg {
+    background-image: url(../../asests/bg/marketplace.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.auction-bg {
+    background-image: url(../../asests/bg/auction.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.bgCard {
+    background-image: url(../../asests/smBg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
