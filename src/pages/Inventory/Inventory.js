@@ -287,7 +287,7 @@ const Inventory = () => {
                 <h6 className="text-lg font-semibold">Insights</h6>
                 <small className="text-xs">ID: A#1001</small>
               </div>
-              <Link to="/" className="flex items-center gap-2 text-[#2B74EE]">
+              <Link to="/" className="flex items-center underline gap-2 text-[#2B74EE]">
                 Go to auction <BiLinkExternal />
               </Link>
             </div>
@@ -297,8 +297,8 @@ const Inventory = () => {
                 <p className="flex items-center justify-between font-semibold">
                   Engagement <HiOutlineDotsVertical />
                 </p>
-                <div className="flex items-center mt-2">
-                  <div className="flex items-center gap-5 w-[50%]">
+                <div className="flex items-center justify-between mt-2">
+                  <div className="flex items-center gap-5">
                     <div>
                       <p className="text-2xl font-bold">219</p>
                       <small className="text-xs">Last day</small>
@@ -307,7 +307,7 @@ const Inventory = () => {
                       -1.1% <HiArrowTrendingUp />
                     </p>
                   </div>
-                  <div className="w-[50%] relative">
+                  <div className=" relative">
                     <img src={chart} alt="" className="absolute bottom-1" />
                     <img src={chartBg} alt="" />
                     {/* <LineChart width={220} height={100} data={data}>
